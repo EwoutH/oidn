@@ -1,7 +1,7 @@
 image: Visual Studio 2019
 configuration: Release
 
-clone: git clone --recursive https://github.com/OpenImageDenoise/oidn.git
+init: git clone --recursive https://github.com/OpenImageDenoise/oidn.git
 install: cmake .
 
 build:
