@@ -1,7 +1,9 @@
 image: Visual Studio 2019
 configuration: Release
 
-install: cmake .
+install: 
+ - git submodule update --init --recursive
+ - cmake .
 
 build:
   project: OpenImageDenoise.sln
